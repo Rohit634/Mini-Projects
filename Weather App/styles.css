@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image:url(https://www.vmcdn.ca/f/files/sudbury/uploadedImages/news/localNews/2016/04/sun-clouds.jpg;w=660;h=371;mode=crop)
+    
+}
+
+.container {
+    max-width: 400px;
+    margin: 20px auto;
+  
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 5rem;
+    -webkit-border-radius: 5rem;
+    -moz-border-radius: 5rem;
+    -ms-border-radius: 5rem;
+    -o-border-radius: 5rem;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #11ff00;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5rem;
+    -webkit-border-radius: 5rem;
+    -moz-border-radius: 5rem;
+    -ms-border-radius: 5rem;
+    -o-border-radius: 5rem;
+}
+
+button:hover {
+    background-color: #00f7ff;
+}
