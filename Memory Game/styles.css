@@ -1,0 +1,43 @@
+.container {
+    max-width: 300px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.game-board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 50px;
+    height: 50px;
+    background-color: #00ffbb;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #ff0000;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    border-radius: 5rem;
+    -webkit-border-radius: 5rem;
+    -moz-border-radius: 5rem;
+    -ms-border-radius: 5rem;
+    -o-border-radius: 5rem;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+body{
+    background-color: rgb(225, 0, 255);
+}
