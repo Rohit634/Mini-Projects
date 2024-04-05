@@ -1,0 +1,27 @@
+.container {
+    max-width: 300px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+input[type="datetime-local"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+  
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #00ff08;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0008f6;
+}
+body{
+    background-color: rgb(255, 115, 0);
+}
